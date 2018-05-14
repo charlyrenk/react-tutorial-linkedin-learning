@@ -1,11 +1,11 @@
 // const { createElement } = React
 const { render } = ReactDOM
 
-const style = {
-    backgroundColor: 'orange',
-    color: 'white',
-    fontFamily: 'verdana'
-}
+// const style = {
+//     backgroundColor: 'orange',
+//     color: 'white',
+//     fontFamily: 'verdana'
+// }
 
 // const title = React.createElement(
 //     'h1',
@@ -17,7 +17,11 @@ const style = {
 render(
     <h1 id="title"
         className='header'
-        style={style}>
+        style={{ 
+            backgroundColor: 'orange',
+            color: 'white',
+            fontFamily: 'verdana'
+            }}>
         Hello World
     </h1>,
     document.getElementById('react-container')
